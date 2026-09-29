@@ -1,0 +1,17 @@
+From: security-alert@banking-update.com
+To: user@example.com
+Subject: Urgent: Verify Your Account
+Date: Tue, 25 Sep 2026 08:15:00 +0000
+Message-ID: <123456789@example.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+X-Spam-Flag: YES
+X-Authentication-Results: mx.example.com; spf=fail smtp.mailfrom=banking-update.com
+
+<html>
+  <body>
+    <h1>Urgent action required</h1>
+    <p>We have detected unusual activity. Please click <a href="http://verify-bank-login.example-security-check.com/reset.php?token=abc123">here</a> to confirm your account.</p>
+    <p>Failure to do so may result in account suspension.</p>
+  </body>
+</html>
